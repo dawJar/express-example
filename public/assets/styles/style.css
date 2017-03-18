@@ -1,0 +1,20 @@
+html, body {
+    background-color: #758cdd;
+    color: #eee;
+    font-family: arial;
+}
+
+#container {
+    width: 100%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li:hover {
+    text-decoration: line-through;
+}

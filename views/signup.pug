@@ -1,0 +1,16 @@
+doctype html
+html(lang='pl')
+
+    head
+        title simple-todo
+        link(href='/assets/style.css',
+                rel='stylesheet',
+                type='text/css')
+        
+    body
+        if(message)
+            h4 #{ message }
+        form(action="/signup", method="POST")
+            input(name="login", type="text", placeholder="Login")
+            input(name="password", type="password", placeholder="Password")
+            button(type="Submit") Sign me up!

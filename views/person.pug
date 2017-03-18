@@ -1,0 +1,20 @@
+doctype html
+html(lang='pl')
+
+    head
+        title simple-todo
+        link(href='/assets/style.css',
+                rel='stylesheet',
+                type='text/css')
+        
+    body
+        form(action="/person", method="POST")
+            div
+                label(for="name") name: 
+                input(name="name")
+            br
+            div
+                label(for="age") age: 
+                input(name="age")
+            br
+            button(type="submit") create new person
